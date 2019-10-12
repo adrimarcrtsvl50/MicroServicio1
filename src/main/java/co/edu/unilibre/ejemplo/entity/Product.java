@@ -28,6 +28,7 @@ public class Product implements Serializable{
 	@Column(name = "creation_date")
 	@Temporal(TemporalType.DATE)
 	private Date createDate;
+	//marce
 
 	public Long getId() {
 		return id;
